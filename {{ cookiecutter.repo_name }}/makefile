@@ -12,4 +12,4 @@ venv:
     fi	
 
 requirements: requirements.txt:
-	{{venv_cookiecutter.repo_name}}/bin/pip.exe install -r requirements.txt
+	venv_{{cookiecutter.repo_name}}/bin/pip.exe install -r requirements.txt
