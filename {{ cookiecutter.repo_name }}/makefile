@@ -8,7 +8,7 @@ venv:
 	if [ -d "~/venv_{{ cookiecutter.repo_name }}" ]; then \
         echo "venv_found"; \
 	else 
-		mkdir {{ venv_cookiecutter.repo_name }}
+		python3.11 -m venv venv_{{ cookiecutter.repo_name }}
     fi	
 
 requirements: requirements.txt:
