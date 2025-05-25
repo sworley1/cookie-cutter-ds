@@ -1,5 +1,6 @@
 ipython
 ipykernel
+marimo
 
 polars
 pandas
