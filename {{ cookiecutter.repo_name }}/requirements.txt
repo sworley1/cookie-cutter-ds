@@ -11,6 +11,7 @@ pyarrow
 #fastexcel
 
 altair
+git+https://github.com/sworley1/worles_altair_theme.git
 #plotnine
 vl-convert-python
 vegafusion[embed]
